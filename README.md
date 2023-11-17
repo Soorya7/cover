@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:28/10/2023
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -25,9 +25,93 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
 
+        .bookpage {
+            width: 400px;
+            height: 600px;
+            color: rgb(0, 68, 255);
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(th.jpeg);
+            background-size: cover;
+            position: relative;
+        }
+
+        .insight {
+            color: white;
+        }
+
+        .booktitle {
+            font-family: 'Algerian', cursive;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+
+        .subtitle {
+            font-family: Tahoma;
+            font-size: large;
+            text-align: center; /* Center the subtitle text */
+            position: relative;
+            top: 40px;
+        }
+
+        .author {
+            font-family: 'Algerian', cursive;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: rgb(0, 255, 110);
+            font-size: 25px;
+        }
+
+        .mypic {
+            position: relative;
+            top: 300px; 
+            left: 295px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            background-size: cover;
+        }
+    </style>
+    <title>Book Cover Page</title>
+</head>
+
+<body>
+    <div class="bookpage">
+        <div class="insight">EXPERT INSIGHT</div>
+        <div class="booktitle">
+            <h1>THE FAIRY TALE</h1>
+        </div>
+        <div class="author">
+            YUVARAJ 
+        </div>
+        <div class="mypic">
+            <img src="photo.jpg" width="100" height="100" alt="">
+        </div>
+    </div>
+</body>
+</html>
+```
 
 ## OUTPUT:
+![WhatsApp Image 2023-11-17 at 23 16 20_d98681e2](https://github.com/Soorya7/cover/assets/105735689/cb9b6842-6664-4f06-8b51-fda95ec9716f)
 
 
 ## RESULT:
